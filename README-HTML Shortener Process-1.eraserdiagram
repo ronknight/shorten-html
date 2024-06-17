@@ -1,0 +1,19 @@
+flowchart-diagram
+
+title HTML Shortener Process
+
+Setup [color: lightblue, shape: oval, icon: settings] > Install BeautifulSoup [icon: package]
+Install BeautifulSoup > Prepare Input HTML [icon: file-text]
+Prepare Input HTML > Run Script [icon: terminal]
+
+Run Script > Read input.html [icon: file-text]
+Read input.html > Parse HTML with BeautifulSoup [icon: code]
+Parse HTML with BeautifulSoup > Remove <span> Tags [icon: scissors]
+Remove <span> Tags > Write to output.html [icon: file-text]
+Write to output.html > End [color: lightblue, shape: oval, icon: check]
+
+Customization [color: lightgreen, shape: oval, icon: settings] > Open shorten.py [icon: file-text]
+Open shorten.py > Edit Shortening Logic [icon: code]
+Edit Shortening Logic > Save Changes [icon: save]
+Save Changes > Run Script [icon: terminal]
+
